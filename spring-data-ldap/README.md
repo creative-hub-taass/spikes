@@ -1,0 +1,1 @@
+# Spike Spring Data LDAP
