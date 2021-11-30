@@ -31,6 +31,7 @@ dependencies {
 	implementation("org.springframework.session:spring-session-core")
 	implementation("org.webjars:jquery:3.4.1")
 	implementation("org.webjars:bootstrap:4.3.1")
+	implementation("org.webjars:js-cookie:2.1.0")
 	implementation("org.webjars:webjars-locator-core")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
