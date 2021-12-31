@@ -1,0 +1,16 @@
+com/registrazione/demo/registration/token/ConfirmationTokenService.class
+com/registrazione/demo/appuser/AppUser.class
+com/registrazione/demo/registration/RegistrationService.class
+com/registrazione/demo/appuser/AppUserService.class
+com/registrazione/demo/security/config/WebSecurityConfig.class
+com/registrazione/demo/registration/RegistrationRequest.class
+com/registrazione/demo/security/PasswordEncoder.class
+com/registrazione/demo/registration/token/ConfirmationTokenRepository.class
+com/registrazione/demo/email/EmailSender.class
+com/registrazione/demo/registration/EmailValidator.class
+com/registrazione/demo/email/EmailService.class
+com/registrazione/demo/appuser/AppUserRole.class
+com/registrazione/demo/appuser/AppUserRepository.class
+com/registrazione/demo/registration/RegistrationController.class
+com/registrazione/demo/registration/token/ConfirmationToken.class
+com/registrazione/demo/SpikeRegistrazioneApplication.class

@@ -1,0 +1,16 @@
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/security/PasswordEncoder.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/registration/token/ConfirmationTokenService.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/email/EmailSender.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/registration/RegistrationController.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/registration/RegistrationService.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/SpikeRegistrazioneApplication.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/registration/EmailValidator.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/registration/RegistrationRequest.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/appuser/AppUserRole.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/email/EmailService.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/security/config/WebSecurityConfig.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/appuser/AppUserService.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/appuser/AppUserRepository.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/registration/token/ConfirmationTokenRepository.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/appuser/AppUser.java
+/home/mone/Scrivania/intelliJ/demo/Spike/src/main/java/com/registrazione/demo/registration/token/ConfirmationToken.java
