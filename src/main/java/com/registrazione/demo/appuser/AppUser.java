@@ -11,7 +11,6 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
-import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -44,7 +43,7 @@ public class AppUser implements UserDetails {
     @OneToMany //accetta solo i type basic
     private List<AppUser> listFans;
     @OneToMany
-    private ArrayList<AppUser> listInspirers;
+    private List<AppUser> listInspirers;
     private Long idCreator;
     private Boolean locked = false;
     private Boolean enabled = false;
@@ -58,6 +57,9 @@ public class AppUser implements UserDetails {
         this.email = email;
         this.password = password;
         this.appUserRole = appUserRole;
+        this.idCreator = (long) 0;
+        listInspirers = new ArrayList<>(); // arraylist con capacità iniziale 10
+        listFans = null;
     }
 
     @Override
@@ -65,6 +67,23 @@ public class AppUser implements UserDetails {
         SimpleGrantedAuthority authority =
                 new SimpleGrantedAuthority(appUserRole.name());
         return Collections.singletonList(authority);
+    }
+
+    public String getNickname(){
+        return nickname;
+    }
+
+    public Long getIdCreator(){
+        return idCreator;
+    }
+
+    public List<AppUser> getListInspirers(){
+        return listInspirers;
+    }
+
+    public List<AppUser> getListFans(){
+        if(idCreator != 0)return listFans;
+            else return null;
     }
 
     @Override
