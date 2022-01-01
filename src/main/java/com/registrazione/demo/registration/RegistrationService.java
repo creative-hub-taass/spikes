@@ -67,7 +67,7 @@ public class RegistrationService {
         confirmationTokenService.setConfirmedAt(token);
         appUserService.enableAppUser(
                 confirmationToken.getAppUser().getEmail());
-        return "confirmed";
+        return "confirmed"; //implementare messaggio di conferma
     }
 
     private String buildEmail(String name, String link) {
